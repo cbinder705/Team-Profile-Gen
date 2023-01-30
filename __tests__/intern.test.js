@@ -14,12 +14,6 @@ test("Testing officeNumber will return office number.", () => {
 
 test("Testing role.", () => {
   const returnValue = "Intern";
-  const employeeInstance = new Intern(
-    "Cory",
-    2,
-    "cory@test.com",
-    testSchool,
-    "testName"
-  );
+  const employeeInstance = new Intern("Cory", 2, "cory@test.com", "testName");
   expect(employeeInstance.getRole()).toBe(returnValue);
 });
