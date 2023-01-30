@@ -1,0 +1,25 @@
+{
+  "name": "Team-Generator",
+  "version": "1.0.0",
+  "description": "OOP",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "",
+    "url": "git+https://github.com/cbinder705/Team-Profile-Gen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/cbinder705/Team-Profile-Gen",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {}
+}
