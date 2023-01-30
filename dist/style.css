@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(159, 157, 173);
+}
+.jumbotron {
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(104, 104, 212);
+}
+.card {
+  font-family: "Courier New", Courier, monospace;
+  justify-content: center;
+  background-color: aliceblue;
+  display: flex;
+  margin: 3rem;
+}
+
+.card-header {
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(10, 100, 179);
+  justify-content: center;
+}
